@@ -184,8 +184,7 @@ searchItemHanlder = (search) => //Search the images with user input keywords
                                     </div>
                                     <div className="add-comments">
                                         <FormControl className={classes.addComments} >
-                                            <InputLabel htmlFor="comments">Add a
-                            comment</InputLabel>
+                                            <InputLabel htmlFor="comments">Add acomment</InputLabel>
                                             <Input id={"comments" + image.id}
                                                 className="comments-add"
                                                 onChange={(event) => this.commentsChangeHandler(
