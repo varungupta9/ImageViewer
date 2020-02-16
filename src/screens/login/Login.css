@@ -1,0 +1,21 @@
+.cardStyle {
+    width: 280px;
+    padding: 32px 64px 32px 64px;
+    margin: auto;
+    text-align: left;
+}
+.formControl {
+    width: 240px;
+}
+.red {
+    color: red;
+    font: smaller;
+}
+.dispNone
+{
+    display:none;
+}
+.dispBlock
+{
+    display:block
+}
