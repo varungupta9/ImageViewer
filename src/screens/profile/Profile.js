@@ -281,7 +281,7 @@ likeHandler=(image) => //Increases/Decreases Like count when like icon is clicke
                         {clickedImage.images &&
                             <div className="images-grid">
                                 <div className="display-grid">
-                                    <img src={clickedImage.images.standard_resolution.url} className="display-image" />
+                                    <img src={clickedImage.images.standard_resolution.url} className="display-image" alt="pf"/>
                                 </div>
                                 <div className="display-grid">
                                     <CardHeader className={classes.cardHeader}
